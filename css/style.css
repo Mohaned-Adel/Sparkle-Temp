@@ -37,3 +37,101 @@ body {
         width: 1170px;
     }
 }
+
+/* header section  */
+
+#header {
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    width: 100vw;
+    height: 75vh;
+}
+
+#header .container .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .nav {
+    padding: 30px;
+}
+
+#header .icon {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#header .nav .icon span {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+#header .nav .icon span:nth-child(2) {
+    width: 75%;
+}
+
+#header .nav .icon span:last-child {
+    width: 50%;
+}
+
+#header .nav .icon:hover span {
+    width: 100%;
+}
+
+#header ul {
+    list-style: none;
+    position: fixed;
+    background-color: #f3f3f3;
+    width: 30%;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    margin-top: 0;
+    text-align: center;
+}
+/* #header .nav .icon:hover ul {
+    right: 0;
+} */
+#header .menu ul li {
+    margin: 50px;
+}
+#header .menu ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+#header .header-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#header .header-content h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 7px;
+    font-size: 25px;
+}
+
+#header .header-content p {
+    color: #f3f3f3;
+    padding: 10px 0 30px;
+    letter-spacing: 2px;
+}
+
+#header .header-content .btn {
+    border-style: none;
+    padding: 10px 30px;
+    background-color: var(--main-color);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
