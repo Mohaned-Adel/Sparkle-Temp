@@ -38,6 +38,24 @@ body {
     }
 }
 
+.our {
+    text-align: center;
+}
+
+.our h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0;
+    letter-spacing: 15px;
+}
+
+.our p {
+    color: #777;
+    line-height: 1.8;
+    width: 75%;
+    margin: auto;
+}
+
 /* header section  */
 
 #header {
@@ -156,23 +174,6 @@ body {
 .services {
     background-color: #F5F5F5;
     padding: 60px 0 20px;
-}
-.services .our-serv {
-    text-align: center;
-}
-
-.services .our-serv h2 {
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 20px 0;
-    letter-spacing: 15px;
-}
-
-.services .our-serv p {
-    color: #777;
-    line-height: 1.8;
-    width: 75%;
-    margin: auto;
 }
 
 .services .cards {
