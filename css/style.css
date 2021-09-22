@@ -151,3 +151,104 @@ body {
     line-height: 1.8;
     font-size: 18px;
 }
+
+/* services section  */
+.services {
+    background-color: #F5F5F5;
+    padding: 60px 0 20px;
+}
+.services .our-serv {
+    text-align: center;
+}
+
+.services .our-serv h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0;
+    letter-spacing: 15px;
+}
+
+.services .our-serv p {
+    color: #777;
+    line-height: 1.8;
+    width: 75%;
+    margin: auto;
+}
+
+.services .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 35px;
+    text-align: center;
+    padding: 100px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.services .cards .card {
+    background-color: white;
+    padding: 50px 10px 20px;
+}
+
+.services .cards .card h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px 0;
+    margin: 0;
+}
+
+.services .cards .card p {
+    color: #777;
+    line-height: 2;
+}
+
+.services .card-prog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 35px;
+    margin-bottom: 30px;
+}
+
+.services .card-prog .progress {
+    background-color: white;
+    padding: 20px 10px;
+}
+
+.services .card-prog .progress h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.services .card-prog .progress .prog {
+    width: 100%;
+    height: 6px;
+    background-color: #f5f5f5;
+    margin: 10px 0px;
+    border-radius: 0.25rem;
+}
+
+.services .card-prog .progress .prog-made {
+    background-color: var(--main-color);
+    height: 6px;
+    border-radius: 0.25rem;
+}
+
+.services .prog-ps{ width: 90%;}
+.services .prog-ai{ width: 80%;}
+.services .prog-id { width: 75%;} 
+.services .prog-ui { width: 80%;}
+.services .prog-ux { width: 70%;}
+.services .prog-resp { width: 65%;}
+.services .prog-html { width: 75%;}
+.services .prog-css { width: 80%;}
+.services .prog-js { width: 90%;}
+.services .prog-c { width: 70%;}
+.services .prog-java { width: 50%;}
+.services .prog-swift { width: 80%;}
+
+
+
+
+
